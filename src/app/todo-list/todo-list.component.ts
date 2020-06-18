@@ -8,13 +8,13 @@ import { TodoListService } from './../services/todo-list.service';
   styleUrls: ['./todo-list.component.scss']
 })
 export class TodoListComponent implements OnInit {
-  todoList: TodoItem[] = [];
+  todoList: TodoItem[];
 
   constructor(private todoListService:TodoListService) {
   }
 
   ngOnInit() {
-    this.todoList = this.todoListService.getTodoList() || [];
+    this.todoList = this.todoListService.getTodoList();
   }
 
   addItem(title: string) {

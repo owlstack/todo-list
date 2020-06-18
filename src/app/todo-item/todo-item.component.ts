@@ -20,8 +20,6 @@ export class TodoItemComponent implements OnInit {
       item: this.item,
       changes: {completed: !this.item.completed}
     });
-
-    
   }
 
   removeItem() {
