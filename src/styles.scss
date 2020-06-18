@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, div,
+h1, p, ul, li {
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background: white;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  background: blue;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  vertical-align: bottom;
+}
+
+.app-title {
+  font-size: 52px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align:start;
+}

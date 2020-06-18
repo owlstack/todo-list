@@ -1,0 +1,8 @@
+<input #inputElement
+         [value]="title"
+         class="todo-input"
+         (keyup.enter)="addTask($event.target.value)">
+
+  <button (click)="addTask(inputElement.value)" class="btn">
+    Add
+  </button>
